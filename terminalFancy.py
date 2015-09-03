@@ -81,6 +81,7 @@ while True:
 
     if lastUpdate != t.tm_min:
         outWeather = fetchWeather(10)
+        lastUpdate = t.tm_min
     
     clearScreen()
 	
